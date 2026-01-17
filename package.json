@@ -1,0 +1,10 @@
+{
+  "name": "marketplace-monorepo",
+  "private": true,
+  "workspaces": [
+    "my-marketplace-app"
+  ],
+  "scripts": {
+    "build": "cd my-marketplace-app && npm run build"
+  }
+}
